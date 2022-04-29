@@ -1,6 +1,6 @@
-//assignmet 1 
+//assignmet 1.1 
 // wap to enter n value from command line and a/d at last to decide 
-//order and print in that order
+//order(ascending/descending) and print in that particular order.
 public class CommandLine {
     public static void main(String[] args) {
         if (args.length > 0) {
