@@ -3,21 +3,22 @@
 //order and print in that order
 public class CommandLine {
     public static void main(String[] args) {
+        if (args.length > 0) {
+            int len = (args.length);
 
-        int len = (args.length);
+            if (args[len - 1].equals("d") || args[len - 1].equals("D")) {
+                System.out.println("desencending Order:");
+                for (int i = len - 2; i >= 0; i--) {
+                    System.out.println(args[i]);
+                }
+            } else {
+                System.out.println("By Default asencending Order:");
+                for (int i = 0; i < len - 1; i++) {
+                    System.out.println(args[i]);
 
-        if (args[len - 1].equals("d") || args[len - 1].equals("D")) {
-            System.out.println("desencending Order:");
-            for (int i = len - 2; i >= 0; i--) {
-                System.out.println(args[i]);
+                }
             }
-        } else {
-            System.out.println("By Default asencending Order:");
-            for (int i = 0; i < len - 1; i++) {
-                System.out.println(args[i]);
 
-            }
         }
-
     }
 }
