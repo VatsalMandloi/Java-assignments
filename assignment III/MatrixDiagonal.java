@@ -3,7 +3,7 @@ import java.util.Scanner;
 //assignmet 3.2 
 // wap to find all diagonal element of a given square matrix 
 
-public class a {
+public class MatrixDiagonal {
 
     public static void main(String[] args) {
 
