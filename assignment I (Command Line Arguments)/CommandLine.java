@@ -1,4 +1,4 @@
-//assignmet 1 
+//assignmet 1.1
 // wap to enter n value from command line and a/d at last to decide 
 //order and print in that order
 public class CommandLine {
