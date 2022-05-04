@@ -1,3 +1,4 @@
+import java.lang.*;
 //assignmet 1.2 
 //wap to enter n value from command line and find square and cube of given number and 
 //display results in descending order.
