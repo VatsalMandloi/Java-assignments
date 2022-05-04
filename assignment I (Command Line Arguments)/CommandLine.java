@@ -15,10 +15,8 @@ public class CommandLine {
                 System.out.println("By Default asencending Order:");
                 for (int i = 0; i < len - 1; i++) {
                     System.out.println(args[i]);
-
                 }
             }
-
         }
     }
 }
